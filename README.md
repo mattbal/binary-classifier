@@ -1,6 +1,6 @@
 # Binary Classifier
 
-For my CS 315 Data Mining class, we were asked to complete the following assignment:
+This repository contains my solution for the following CS 315 Data Mining homework assignment:
 
 ### Fortune Cookie Classifier
 
@@ -14,7 +14,7 @@ For example:
 
 <br>
 
-There are three sets of files provided. All of the words in these files are lower case and the punctuation has been removed.
+**Files Provided.** There are three sets of files provided. All of the words in these files are lower case and the punctuation has been removed.
 
 1. The training data:
 
@@ -32,13 +32,13 @@ There are three sets of files provided. All of the words in these files are lowe
 
    stoplist.txt
 
-There are two steps: the pre-processing step and the classification step. In the pre- processing step, you will convert fortune cookie messages into features to be used by your classifier. You will be using a bag of words representation. The following steps outline the process involved:
+There are two steps: the pre-processing step and the classification step. In the pre-processing step, you will convert fortune cookie messages into features to be used by your classifier. You will be using a bag of words representation. The following steps outline the process involved:
 
 1. Form the vocabulary. Let M be the size of your vocabulary.
 
 2. Convert the training data into a set of features. 
 
-3. For each fortune cookie message, you will convert it into a feature vector of size M. Each slot in that feature vector takes the value of 0 or 1. For these M slots, if the ith slot is 1, it means that the ith word in the vocabulary is present in the fortune cookie message; otherwise, if it is 0, then the ith word is not present in the message. Most of these feature vector slots will be 0. 
+3. For each fortune cookie message, you will convert it into a feature vector of size M. Each slot in that feature vector takes the value of either 0 or 1. For these M slots, if the ith slot is 1, it means that the ith word in the vocabulary is present in the fortune cookie message; otherwise, if it is 0, then the ith word is not present in the message. Most of these feature vector slots will be 0. 
 
 4. Implement a binary classifier with perceptron weight update as shown below. Use learning rate η=1.
 
@@ -62,11 +62,11 @@ return final weight vector w
 
 <br>
 
-a) Compute the the number of mistakes made during each iteration (1 to 20).
+**a)** Compute the the number of mistakes made during each iteration (1 to 20).
 
-b) Compute the training accuracy and testing accuracy after each iteration (1 to 20).
+**b)** Compute the training accuracy and testing accuracy after each iteration (1 to 20).
 
-c) Compute the training accuracy and testing accuracy after 20 iterations with standard perceptron and averaged perceptron.
+**c)** Compute the training accuracy and testing accuracy after 20 iterations with standard perceptron and averaged perceptron.
 
 ### OCR Classifier
 
@@ -74,13 +74,13 @@ Given an image of a handwritten character, we need to predict whether the corres
 
 **Data format.** Each non-empty line corresponds to one input-output pair. 128 binary values after “im” correspond to the input features (pixel values of a binary image). The letter immediately afterwards is the corresponding output label.
 
-a) Compute the the number of mistakes made during each iteration (1 to 20).
+**a)** Compute the the number of mistakes made during each iteration (1 to 20).
 
-b) Compute the training accuracy and testing accuracy after each iteration (1 to 20).
+**b)** Compute the training accuracy and testing accuracy after each iteration (1 to 20).
 
-c) Compute the training accuracy and testing accuracy after 20 iterations with stanard perceptron and averaged perceptron.
+**c)** Compute the training accuracy and testing accuracy after 20 iterations with stanard perceptron and averaged perceptron.
 
 
 ## My Solution
 
-To see my solution, check out the hw.py file and check out the output.txt file for the results of the program. Or, you can try running the program for yourself by downloading Python 3 yoursef and running `python3 hw.py` in terminal
+To see my solution, check out the hw.py file and check out the output.txt file for the results of the program. Or, you can try running the program for yourself by downloading Python 3 and running `python3 hw.py` in terminal
