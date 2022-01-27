@@ -70,9 +70,9 @@ c) Compute the training accuracy and testing accuracy after 20 iterations with s
 
 ### OCR Classifier
 
-Given an image of handwritten character, we need to predict whether the corresponding letter is vowel (a, e, i, o, u) or consonant. You are provided with a training and testing set.
+Given an image of a handwritten character, we need to predict whether the corresponding letter is a vowel (a, e, i, o, u) or a consonant. You are provided with a training and testing set.
 
-Data format. Each non-empty line corresponds to one input-output pair. 128 binary values after “im” correspond to the input features (pixel values of a binary image). The letter immediately afterwards is the corresponding output label.
+**Data format.** Each non-empty line corresponds to one input-output pair. 128 binary values after “im” correspond to the input features (pixel values of a binary image). The letter immediately afterwards is the corresponding output label.
 
 a) Compute the the number of mistakes made during each iteration (1 to 20).
 
