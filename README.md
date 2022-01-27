@@ -4,11 +4,13 @@ For my CS 315 Data Mining class, we were asked to complete the following assignm
 
 ## Fortune Cookie Classifier
 
-Build a binary fortune cookie classifier. The classifier should sort fortune cookie messages into two classes: messages that predict what will happen in the future and messages that just contain a wise saying. For example:
+Build a binary fortune cookie classifier. The classifier should sort fortune cookie messages into two classes: messages that predict what will happen in the future and messages that just contain a wise saying. 
 
-“Never go in against a Sicilian when death is on the line” would be a wise saying.
+For example:
 
-“You will get an A in Machine learning class” would be a message about the future.
+* “Never go in against a Sicilian when death is on the line” would be a wise saying.
+
+* “You will get an A in Machine learning class” would be a message about the future.
 
 <br>
 
