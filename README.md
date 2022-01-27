@@ -1,6 +1,6 @@
 # Binary Classifier
 
-For my CS 315 Data Mining class, we were asked to complete the following assignment. This repository contains my homework solution.
+For my CS 315 Data Mining class, we were asked to complete the following assignment:
 
 ## Fortune Cookie Classifier
 
