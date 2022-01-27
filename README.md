@@ -18,17 +18,19 @@ There are three sets of files provided. All of the words in these files are lowe
 
 1. The training data:
 
-      traindata.txt: This is the training data consisting of fortune cookie messages.
+   traindata.txt: This is the training data consisting of fortune cookie messages.
    
-      trainlabels.txt: This file contains the class labels for the training data.
+   trainlabels.txt: This file contains the class labels for the training data.
 
 2. The testing data:
 
-      testdata.txt: This is the testing data consisting of fortune cookie messages.
+   testdata.txt: This is the testing data consisting of fortune cookie messages.
    
-      testlabels.txt: This file contains the class labels for the testing data.
+   testlabels.txt: This file contains the class labels for the testing data.
 
-3. A list of stopwords: stoplist.txt
+3. A list of stopwords: 
+
+   stoplist.txt
 
 <br>
 
