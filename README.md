@@ -14,14 +14,16 @@ For example:
 
 <br>
 
-There are three sets of files provided. All words in these files are lower case and punctuation has been removed.
+There are three sets of files provided. All of the words in these files are lower case and the punctuation has been removed.
 
 1. The training data:
    traindata.txt: This is the training data consisting of fortune cookie messages.
+   
    trainlabels.txt: This file contains the class labels for the training data.
 
 2. The testing data:
    testdata.txt: This is the testing data consisting of fortune cookie messages.
+   
    testlabels.txt: This file contains the class labels for the testing data.
 
 3. A list of stopwords: stoplist.txt
