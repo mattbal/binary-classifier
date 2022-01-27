@@ -31,6 +31,7 @@ For each fortune cookie message, you will convert it into a feature vector of si
 Implement a binary classifier with perceptron weight update as shown below. Use learning rate η=1.
 
 Algorithm 1 Online Binary-Classifier Learning Algorithm
+
 Input: D = Training examples, T = maximum number of training iterations Output: w, the final weight vector
 
 ```
