@@ -33,18 +33,22 @@ Implement a binary classifier with perceptron weight update as shown below. Use 
 Algorithm 1 Online Binary-Classifier Learning Algorithm
 Input: D = Training examples, T = maximum number of training iterations Output: w, the final weight vector
 
+```
 Initialize the weights w = 0
 for each training iteration itr ∈ {1,2,···,T} do
    for each training example (xt, yt) ∈ D do
       yˆt = sign(w · xt) // predict using the current weights
       if mistake then
          w=w+η·yt·xt //updatetheweights end if
+```
       
 return final weight vector w
 
 
 a) Compute the the number of mistakes made during each iteration (1 to 20).
+
 b) Compute the training accuracy and testing accuracy after each iteration (1 to 20).
+
 c) Compute the training accuracy and testing accuracy after 20 iterations with standard perceptron and averaged perceptron.
 
 ## OCR Classifier
@@ -54,7 +58,9 @@ Given an image of handwritten character, we need to predict whether the correspo
 Data format. Each non-empty line corresponds to one input-output pair. 128 binary values after “im” correspond to the input features (pixel values of a binary image). The letter immediately afterwards is the corresponding output label.
 
 a) Compute the the number of mistakes made during each iteration (1 to 20).
+
 b) Compute the training accuracy and testing accuracy after each iteration (1 to 20).
+
 c) Compute the training accuracy and testing accuracy after 20 iterations with stanard perceptron and averaged perceptron.
 
 
