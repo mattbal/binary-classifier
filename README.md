@@ -2,7 +2,7 @@
 
 For my CS 315 Data Mining class, we were asked to complete the following assignment:
 
-## Fortune Cookie Classifier
+### Fortune Cookie Classifier
 
 Build a binary fortune cookie classifier. The classifier should sort fortune cookie messages into two classes: messages that predict what will happen in the future and messages that just contain a wise saying. 
 
@@ -60,7 +60,7 @@ b) Compute the training accuracy and testing accuracy after each iteration (1 to
 
 c) Compute the training accuracy and testing accuracy after 20 iterations with standard perceptron and averaged perceptron.
 
-## OCR Classifier
+### OCR Classifier
 
 Given an image of handwritten character, we need to predict whether the corresponding letter is vowel (a, e, i, o, u) or consonant. You are provided with a training and testing set.
 
