@@ -26,14 +26,17 @@ There are three sets of files provided. All words in these files are lower case 
 
 3. A list of stopwords: stoplist.txt
 
+<br>
+
 There are two steps: the pre-processing step and the classification step. In the pre- processing step, you will convert fortune cookie messages into features to be used by your classifier. You will be using a bag of words representation. The following steps outline the process involved:
 
-Form the vocabulary. Let M be the size of your vocabulary.
-Convert the training data into a set of features. 
+1. Form the vocabulary. Let M be the size of your vocabulary.
 
-For each fortune cookie message, you will convert it into a feature vector of size M. Each slot in that feature vector takes the value of 0 or 1. For these M slots, if the ith slot is 1, it means that the ith word in the vocabulary is present in the fortune cookie message; otherwise, if it is 0, then the ith word is not present in the message. Most of these feature vector slots will be 0. 
+2. Convert the training data into a set of features. 
 
-Implement a binary classifier with perceptron weight update as shown below. Use learning rate η=1.
+3. For each fortune cookie message, you will convert it into a feature vector of size M. Each slot in that feature vector takes the value of 0 or 1. For these M slots, if the ith slot is 1, it means that the ith word in the vocabulary is present in the fortune cookie message; otherwise, if it is 0, then the ith word is not present in the message. Most of these feature vector slots will be 0. 
+
+4. Implement a binary classifier with perceptron weight update as shown below. Use learning rate η=1.
 
 Algorithm 1 Online Binary-Classifier Learning Algorithm
 
