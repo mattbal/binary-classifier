@@ -56,10 +56,11 @@ for each training iteration itr ∈ {1,2,···,T} do
       yˆt = sign(w · xt) // predict using the current weights
       if mistake then
          w=w+η·yt·xt //updatetheweights end if
-```
-      
+         
 return final weight vector w
+```
 
+<br>
 
 a) Compute the the number of mistakes made during each iteration (1 to 20).
 
