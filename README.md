@@ -32,8 +32,6 @@ There are three sets of files provided. All of the words in these files are lowe
 
    stoplist.txt
 
-<br>
-
 There are two steps: the pre-processing step and the classification step. In the pre- processing step, you will convert fortune cookie messages into features to be used by your classifier. You will be using a bag of words representation. The following steps outline the process involved:
 
 1. Form the vocabulary. Let M be the size of your vocabulary.
