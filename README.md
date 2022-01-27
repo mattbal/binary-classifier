@@ -43,6 +43,7 @@ There are two steps: the pre-processing step and the classification step. In the
 4. Implement a binary classifier with perceptron weight update as shown below. Use learning rate η=1.
 
 <br> 
+<br>
 
 Algorithm 1 Online Binary-Classifier Learning Algorithm
 
